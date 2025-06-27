@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Portafolio - Ing. Elizabeth Benitez</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body class="light-mode">
+    <header>
+      <div class="container">
+        <img src="/images/Logo-EB.png" alt="Logo" class="logo" />
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#certificacciones">Certificaciones</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+          <div class="theme-toggle">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+          </div>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h2>Hola, soy <span class="highlight">Elizabeth Benitez</span></h2>
+            <h3>Ingeniera Informática</h3>
+            <div class="hero-buttons">
+              <a href="#contacto" class="btn primary">Contáctame</a>
+              <a href="#proyectos" class="btn secondary">Ver proyectos</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="images/Foto-EB.jpeg" alt="Elizabeth Benitez" />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
